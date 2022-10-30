@@ -1,5 +1,5 @@
 setup:
-	python3 -m venv ~/.udacity-devops
+	sudo apt-get install build-essential && python3 -m venv ~/.udacity-devops
 	
 install:
 	pip install -r requirements.txt
