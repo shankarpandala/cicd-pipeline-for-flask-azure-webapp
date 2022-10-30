@@ -1,3 +1,4 @@
+pip ==20.1
 wheel
 Flask==1.0.2
 pandas==0.24.2
