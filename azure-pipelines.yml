@@ -41,6 +41,7 @@ stages:
     - script: |
         python -m venv antenv
         source antenv/bin/activate
+        sudo apt-get install build-essential
         python -m pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
