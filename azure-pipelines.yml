@@ -14,7 +14,7 @@ variables:
   webAppName: 'flaskapp-shankar'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-18.04'
+  vmImageName: 'ubuntu-latest'
 
   # Environment name
   environmentName: 'flaskapp-shankar'
@@ -22,8 +22,8 @@ variables:
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
-  # Python version: 3.8
-  pythonVersion: '3.8'
+  # Python version: 3.7
+  pythonVersion: '3.7'
 
 stages:
 - stage: Build
