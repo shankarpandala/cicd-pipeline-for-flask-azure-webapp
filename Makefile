@@ -3,7 +3,7 @@ setup:
 	
 install:
 	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+		pip install -r requirements.txt --use-deprecated=backtrack-on-build-failures
 
 test:
 	python -m pytest -vv test_hello.py
